@@ -1,0 +1,11 @@
+p{
+  color: #3659A2 !important;
+  font-weight: bolder;
+
+}
+
+@media (min-width: 640px) {
+  .responsive-header {
+    font-size: 3rem;
+  }
+}

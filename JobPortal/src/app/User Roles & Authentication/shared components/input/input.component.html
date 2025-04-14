@@ -1,0 +1,6 @@
+
+<input  class="style border-2 rounded-3" [type]="type"  [required]="required" [placeholder]="placeholder"/>
+
+<div *ngIf="required && submitted" class="form-text text-danger">
+  {{ requiredMessage }}
+</div>

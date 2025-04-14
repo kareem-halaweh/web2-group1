@@ -1,0 +1,24 @@
+button {
+  width: 20%;
+  padding: 10px 20px;
+  color: white !important;
+  background-color: #3659A2;
+  border: solid 2px #3659A2 !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+ display: block;
+  white-space: nowrap;
+}
+
+button:hover {
+  background-color: rgba(54, 89, 162, 0.95);
+  font-size: 1.25rem;
+}
+@media (max-width: 640px) {
+
+   button{
+     width:30%;
+   }
+}

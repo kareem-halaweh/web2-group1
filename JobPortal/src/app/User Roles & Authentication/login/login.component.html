@@ -1,0 +1,32 @@
+<main class=" rounded-3">
+<div class="  rounded-3">
+  <div  class="d-flex justify-content-center align-items-center" >
+
+  <app-header [headerText]= "'Log into your account'"></app-header>
+    </div>
+<div class="content mt-4" >
+  <div class="my-3">
+    <app-label [labelText]="'Email'" ></app-label>
+    <app-input [submitted]="submitted" [type]="'email'" [placeholder]="'Email Address'" [required]="true" [requiredMessage]="'Email is required'" icon="bi bi-envelope"></app-input>
+  </div>
+  <div class="my-3">
+    <app-label [labelText]="'Password'"  ></app-label>
+    <app-input  [submitted]="submitted" [type]="'password'" [placeholder]="'###'" [required]="true" [requiredMessage]="'password is required'" icon="bi bi-envelope"></app-input>
+  </div>
+  <a routerLink="resetPassword">Forget Password?</a>
+
+
+</div>
+
+
+<div class="mt-4">
+  <app-button class="d-flex justify-content-center align-items-center" text="log in" [linkTo]="'changePasswordSuccess'" ></app-button>
+</div>
+
+<div class="content d-flex justify-content-start mt-3">
+  <p>Don’t have an account? </p>
+  <a routerLink="signup" class="ms-1">Sign Up</a>
+
+</div>
+</div>
+</main>

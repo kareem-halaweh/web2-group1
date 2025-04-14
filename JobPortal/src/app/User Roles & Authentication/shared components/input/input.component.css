@@ -1,0 +1,22 @@
+input:hover {
+  border-color: #3659A2;
+  border-width: 3px  !important;
+}
+input{
+  border-color: #3659A2 ;
+  border-style:solid !important;
+}
+.style{
+  height: 50px;
+  width:80%;
+  font-size: 1rem;
+  padding:.2rem .3rem;
+}
+
+@media (min-width: 768px) {
+  .style{
+    height: 50px;
+    width:60%;
+
+  }
+}

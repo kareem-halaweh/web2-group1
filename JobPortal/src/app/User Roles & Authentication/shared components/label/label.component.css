@@ -1,0 +1,10 @@
+label{
+  color: #3659A2 !important;
+  font-size: 1.2rem;
+}
+@media (min-width: 640px) {
+  label{
+
+    font-size: 1.6rem;
+  }
+}
