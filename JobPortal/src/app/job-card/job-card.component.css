@@ -1,0 +1,88 @@
+.jobs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.job-card {
+  width: 360px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.job-card-header {
+  background-color: #7c65e1;
+  height: 90px;
+  position: relative;
+}
+
+.badge-wfh {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  background-color: white;
+  color: #333;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.company-logo {
+  position: absolute;
+  right: 16px;
+  bottom: -32px;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: #172B4D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.company-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.job-card-body {
+  padding: 20px 16px;
+}
+
+.job-title {
+  color: #0066CC;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.company-name {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.job-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #777;
+  font-size: 14px;
+}
+
+.views-info, .days-info {
+  display: flex;
+  align-items: center;
+}
+
+.views-info svg, .days-info svg {
+  margin-right: 6px;
+  fill: #777;
+}
