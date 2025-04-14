@@ -1,0 +1,30 @@
+main{
+  background-color: #3659A2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+main > div{
+  width: 90%;
+  height: 85%;
+  background-color:#DDE5F4;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.content{
+  margin-left: 4rem;
+
+}
+@media (min-width: 768px) {
+  .content{
+    margin-left: 8rem;
+  }
+
+}
+@media (min-width: 992px) {
+  .content{
+    margin-left: 12rem;
+
+  }
+}

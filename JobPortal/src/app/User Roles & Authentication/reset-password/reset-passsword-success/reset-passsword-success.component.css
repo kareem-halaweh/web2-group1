@@ -1,0 +1,41 @@
+main{
+  background-color: #3659A2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+main > div{
+  width: 90%;
+  height: 85%;
+  background-color:#DDE5F4;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.header-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  height: 90%;
+  margin: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  .header {
+    height: auto;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .header {
+    height: auto;
+    padding: 10px;
+  }
+}
