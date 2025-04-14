@@ -1,0 +1,348 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:500,700");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+.manage-all {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .manage-all .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .manage-all .rectangle {
+    top: 106px;
+    left: 45px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://c.animaapp.com/m9h1dw3qYNdhrB/img/rectangle-205.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+  }
+  
+  .manage-all .text-wrapper {
+    position: absolute;
+    width: 288px;
+    top: 13px;
+    left: 35px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 42px;
+    white-space: nowrap;
+  }
+  
+  .manage-all .text-wrapper-2 {
+    position: absolute;
+    width: 266px;
+    top: 18px;
+    left: 336px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 35px;
+    white-space: nowrap;
+  }
+  
+  .manage-all .text-wrapper-3 {
+    position: absolute;
+    width: 336px;
+    top: 18px;
+    left: 615px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 35px;
+    white-space: nowrap;
+  }
+  
+  .manage-all .text-wrapper-4 {
+    position: absolute;
+    width: 162px;
+    top: 18px;
+    left: 951px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 35px;
+    white-space: nowrap;
+  }
+  
+  .manage-all .overlap {
+    position: absolute;
+    width: 1349px;
+    height: 220px;
+    top: 804px;
+    left: 45px;
+  }
+  
+  .manage-all .overlap-group-wrapper {
+    top: 87px;
+    left: 0;
+    border-radius: 0px 0px 15px 15px;
+    overflow: hidden;
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+  }
+  
+  .manage-all .overlap-group {
+    position: relative;
+    height: 70px;
+    background-image: url(https://c.animaapp.com/m9h1dw3qYNdhrB/img/rectangle-205.svg);
+    background-size: 100% 100%;
+  }
+  
+  .manage-all .name {
+    position: absolute;
+    width: 288px;
+    top: 13px;
+    left: 35px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 42px;
+    white-space: nowrap;
+  }
+  
+  .manage-all .role {
+    position: absolute;
+    width: 266px;
+    top: 18px;
+    left: 336px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 35px;
+    white-space: nowrap;
+  }
+  
+  .manage-all .email {
+    position: absolute;
+    width: 336px;
+    top: 18px;
+    left: 615px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 35px;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .manage-all .number {
+    position: absolute;
+    width: 162px;
+    top: 18px;
+    left: 951px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 35px;
+    white-space: nowrap;
+  }
+  
+  .manage-all .checkmark-button {
+    position: absolute;
+    width: 154px;
+    height: 60px;
+    top: 97px;
+    left: 1147px;
+  }
+  
+  .manage-all .x-button {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 160px;
+    left: 1052px;
+  }
+  
+  .manage-all .rectangle-2 {
+    top: 0;
+    left: 0;
+    background-image: url(https://c.animaapp.com/m9h1dw3qYNdhrB/img/rectangle-205.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+  }
+  
+  .manage-all .img {
+    width: 60px;
+    left: 1178px;
+    position: absolute;
+    height: 60px;
+    top: 160px;
+  }
+  
+  .manage-all .checkmark-button-2 {
+    position: absolute;
+    width: 186px;
+    height: 211px;
+    top: 9px;
+    left: 1115px;
+  }
+  
+  .manage-all .x-button-2 {
+    width: 312px;
+    left: 989px;
+    position: absolute;
+    height: 60px;
+    top: 160px;
+  }
+  
+  .manage-all .overlap-2 {
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+    top: 275px;
+    left: 45px;
+  }
+  
+  .manage-all .checkmark-button-3 {
+    position: absolute;
+    width: 154px;
+    height: 60px;
+    top: 6px;
+    left: 1147px;
+  }
+  
+  .manage-all .overlap-3 {
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+    top: 543px;
+    left: 45px;
+    border-radius: 15px;
+  }
+  
+  .manage-all .rectangle-3 {
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://c.animaapp.com/m9h1dw3qYNdhrB/img/rectangle-205.svg);
+    background-size: 100% 100%;
+  }
+  
+  .manage-all .overlap-4 {
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+    top: 194px;
+    left: 45px;
+    border-radius: 15px;
+  }
+  
+  .manage-all .checkmark-button-4 {
+    position: absolute;
+    width: 154px;
+    height: 60px;
+    top: 9px;
+    left: 1147px;
+  }
+  
+  .manage-all .overlap-5 {
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+    top: 369px;
+    left: 45px;
+    border-radius: 15px;
+  }
+  
+  .manage-all .overlap-6 {
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+    top: 456px;
+    left: 45px;
+  }
+  
+  .manage-all .overlap-7 {
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+    top: 630px;
+    left: 45px;
+  }
+  
+  .manage-all .overlap-8 {
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+    top: 717px;
+    left: 45px;
+    border-radius: 15px;
+  }
+  
+  .manage-all .div-wrapper {
+    position: absolute;
+    width: 1349px;
+    height: 70px;
+    top: 18px;
+    left: 45px;
+    background-color: #3e61a5;
+    border-radius: 16px;
+  }
+  
+  .manage-all .text-wrapper-5 {
+    position: absolute;
+    width: 518px;
+    top: 9px;
+    left: 39px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 56px;
+    white-space: nowrap;
+  }
+  
