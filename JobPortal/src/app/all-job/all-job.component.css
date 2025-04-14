@@ -1,0 +1,388 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:500,600");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+.viewalljobs {
+    background-color: #3659a2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .viewalljobs .div {
+    background-color: #3659a2;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .viewalljobs .text-wrapper {
+    position: absolute;
+    width: 174px;
+    top: 24px;
+    left: 60px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 56px;
+    white-space: nowrap;
+  }
+  
+  .viewalljobs .overlap {
+    position: absolute;
+    width: 421px;
+    height: 250px;
+    top: 117px;
+    left: 46px;
+  }
+  
+  .viewalljobs .rectangle {
+    position: absolute;
+    width: 421px;
+    height: 250px;
+    top: 0;
+    left: 0;
+  }
+  
+  .viewalljobs .overlap-group {
+    position: relative;
+    width: 432px;
+    height: 250px;
+    left: -3px;
+  }
+  
+  .viewalljobs .rectangle-2 {
+    width: 407px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    position: absolute;
+    height: 250px;
+  }
+  
+  .viewalljobs .sacramento {
+    position: absolute;
+    width: 266px;
+    top: 73px;
+    left: 61px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #3659a2;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .viewalljobs .text {
+    top: 183px;
+    left: 191px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .viewalljobs .text-wrapper-2 {
+    position: absolute;
+    width: 397px;
+    top: 22px;
+    left: 35px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 42px;
+    white-space: nowrap;
+  }
+  
+  .viewalljobs .sacramento-2 {
+    top: 106px;
+    position: absolute;
+    width: 266px;
+    left: 61px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #3659a2;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .viewalljobs .text-wrapper-3 {
+    position: absolute;
+    width: 86px;
+    top: 173px;
+    left: 61px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #3659a2;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .viewalljobs .marker {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 106px;
+    left: 31px;
+  }
+  
+  .viewalljobs .favourite {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 173px;
+    left: 31px;
+  }
+  
+  .viewalljobs .sacramento-3 {
+    top: 138px;
+    position: absolute;
+    width: 266px;
+    left: 61px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #3659a2;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .viewalljobs .p {
+    width: 149px;
+    top: 198px;
+    left: 252px;
+    position: absolute;
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .viewalljobs .vector {
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    top: 76px;
+    left: 30px;
+  }
+  
+  .viewalljobs .date-today-light {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 139px;
+    left: 27px;
+  }
+  
+  .viewalljobs .overlap-wrapper {
+    width: 421px;
+    top: 117px;
+    left: 522px;
+    position: absolute;
+    height: 250px;
+  }
+  
+  .viewalljobs .overlap-group-wrapper {
+    width: 421px;
+    top: 741px;
+    left: 522px;
+    position: absolute;
+    height: 250px;
+  }
+  
+  .viewalljobs .div-wrapper {
+    width: 421px;
+    top: 123px;
+    left: 998px;
+    position: absolute;
+    height: 250px;
+  }
+  
+  .viewalljobs .rectangle-3 {
+    width: 421px;
+    top: 429px;
+    left: 522px;
+    position: absolute;
+    height: 250px;
+  }
+  
+  .viewalljobs .rectangle-4 {
+    width: 421px;
+    top: 429px;
+    left: 46px;
+    position: absolute;
+    height: 250px;
+  }
+  
+  .viewalljobs .rectangle-5 {
+    width: 421px;
+    top: 741px;
+    left: 46px;
+    position: absolute;
+    height: 250px;
+  }
+  
+  .viewalljobs .rectangle-6 {
+    width: 421px;
+    top: 429px;
+    left: 998px;
+    position: absolute;
+    height: 250px;
+  }
+  
+  .viewalljobs .rectangle-7 {
+    width: 421px;
+    top: 741px;
+    left: 998px;
+    position: absolute;
+    height: 250px;
+  }
+  /* Inject original CSS here */
+  
+  .viewalljobs {
+    background-color: #3659a2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 24px;
+  }
+  
+  .job-listings {
+    max-width: 1440px;
+    width: 100%;
+  }
+  
+  .page-title {
+    font-family: "Roboto", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 32px;
+  }
+  
+  .job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+  }
+  
+  .job-card {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .job-title {
+    font-family: "Roboto", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 16px;
+  }
+  
+  .company-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .company-icon {
+    width: 20px;
+    height: 19px;
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #3659a2;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .job-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  
+  .location,
+  .publish-date,
+  .job-type {
+    display: flex;
+    align-items: center;
+  }
+  
+  .location-icon,
+  .date-icon,
+  .type-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  .location-name,
+  .publish-text,
+  .type-text {
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #3659a2;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .salary-range {
+    font-family: "Roboto", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .job-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  
